@@ -1,0 +1,40 @@
+TEXTS = {
+    'uz': {
+        'welcome': 'Assalomu alaykum! 👋\nSunLite botiga xush kelibsiz.',
+        'choose_lang': 'Iltimos tilni tanlang:',
+        'offer': 'Iltimos ofertani diqqat bilan o‘qib chiqing: <a href="https://example.com/oferta">Oferta</a>\nAgar rozilik bersangiz — "Tasdiqlayman ✅" tugmasini bosing.',
+        'offer_confirmed': '💡 Endi siz SunLite botidan foydalanishingiz mumkin!\nQuyidagi menyudan kerakli bo‘limni tanlang 👇',
+        'enter_topup_amount': '💳 Hisobni to‘ldirish\n\n💬 Kiriting: qancha summa to‘ldirmoqchisiz?\n(Minimal: {min} UZS, Maksimal: {max} UZS)',
+        'invalid_amount': 'Noto‘g‘ri summa. Iltimos butun son kiriting va {min}-{max} oralig‘ida bo‘lsin.',
+        'send_screenshot': '🪙 Hisobingizni {amount} UZS ga to‘ldirish uchun quyidagi kartaga pul o‘tkazing:\n👤 John Doe\n💳 7777 9888 5456 6525\n\n📸 To‘lovni amalga oshirganingizdan so‘ng skrinshot yuboring!',
+        'topup_sent_admin': 'Sizning to‘lovingiz adminga yuborildi. Tasdiqlanishini kuting.',
+        'topup_approved': '🎉 Hisobingiz muvaffaqiyatli {amount} UZS ga to‘ldirildi! Endi siz rank yoki coin xarid qilishingiz mumkin 💎',
+        'topup_rejected': 'To‘lov rad etildi. Iltimos, admin bilan bog‘laning.',
+        'no_history': '📜 Tarixda hozircha hech narsa yo‘q.',
+        'ask_nickname': 'Iltimos server uchun nickname kiriting (bu qaytarilmaydi):',
+        'order_sent_admin': '🆕 Yangi buyurtma yuborildi. Admin tasdiqlashini kuting.',
+        'order_confirmed_user': '✅ Buyurtmangiz Minecraft serverdan yuborildi. Maroqli o‘yin tilaymiz 🎮🔥',
+        'insufficient_balance': 'Balans yetarli emas. Iltimos hisobni to‘ldiring.',
+        'cancelled': 'Amaliyot bekor qilindi 🔙',
+        'admin_broadcast_prompt': 'Iltimos yuboriladigan xabar matnini kiriting:'
+    },
+    'ru': {
+        'welcome': 'Привет! 👋\nДобро пожаловать в SunLite бот.',
+        'choose_lang': 'Пожалуйста, выберите язык:',
+        'offer': 'Пожалуйста, ознакомьтесь с офертой: <a href="https://example.com/oferta">Оферта</a>\nЕсли вы согласны — нажмите кнопку "Подтверждаю ✅".',
+        'offer_confirmed': '💡 Теперь вы можете использовать SunLite бот!\nВыберите нужный раздел в меню 👇',
+        'enter_topup_amount': '💳 Пополнение счёта\n\n💬 Введите сумму, которую хотите пополнить?\n(Минимум: {min} UZS, Максимум: {max} UZS)',
+        'invalid_amount': 'Неверная сумма. Введите целое число в диапазоне {min}-{max}.',
+        'send_screenshot': '🪙 Для пополнения на {amount} UZS переведите деньги на карту:\n👤 John Doe\n💳 7777 9888 5456 6525\n\n📸 После оплаты пришлите скриншот!',
+        'topup_sent_admin': 'Ваш платёж отправлен администратору на проверку.',
+        'topup_approved': '🎉 Ваш счёт успешно пополнен на {amount} UZS! Теперь вы можете купить rank или coin 💎',
+        'topup_rejected': 'Платёж отклонён. Пожалуйста, свяжитесь с администратором.',
+        'no_history': '📜 В истории пока ничего нет.',
+        'ask_nickname': 'Пожалуйста, введите никнейм для сервера (не возвращается):',
+        'order_sent_admin': '🆕 Новый заказ отправлен администратору. Ожидайте подтверждения.',
+        'order_confirmed_user': '✅ Ваш заказ отправлен на сервер Minecraft. Приятной игры 🎮🔥',
+        'insufficient_balance': 'Недостаточно средств. Пожалуйста, пополните счёт.',
+        'cancelled': 'Операция отменена 🔙',
+        'admin_broadcast_prompt': 'Пожалуйста, введите текст сообщения для рассылки:'
+    }
+}

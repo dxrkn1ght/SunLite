@@ -1,0 +1,7 @@
+BOT_TOKEN = '8456946724:AAExlRAVXv52C4IGWWTZvcCjhkKcv0XNjyE'
+ADMIN_IDS = [993523630]
+DB_URL = 'sqlite+aiosqlite:///sunlite_v3.db'
+MIN_TOPUP = 10000
+MAX_TOPUP = 1000000
+USE_REDIS = False
+REDIS_URL = 'redis://localhost:6379/0'
